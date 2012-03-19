@@ -1,0 +1,21 @@
+{
+  "author": "Andrew Moist",
+  "name": "openappstore-client",
+  "description": "The Open App Store client",
+  "version": "0.0.1",
+  "homepage": "http://open-app-store.org/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andyuk/openappstore.git"
+  },
+  "main": "app.js",
+  "engines": {
+    "node": "v0.6.13"
+  },
+  "dependencies": {
+    "npm": "1.1.10",
+    "express": "2.5.8",
+    "jqtpl": "1.1.0"
+  },
+  "devDependencies": {}
+}

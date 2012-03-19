@@ -1,11 +1,22 @@
 # Open App Store - Client
 
-The client will make use of [NPM](http://npmjs.org/) for handling dependencies and installing apps. 
+The client is basically a UI built on top of [npm](http://npmjs.org/). So far only a basic proof-of-concept is done.
 
-The NPM "package.json" file will be used as the app manifest file. There will be a couple required settings. These might be:
+## Installation
 
-- Path to app icon(s)
-- App entry point? Script? URL?
+    git clone git@github.com:openappstore/openappstore-client.git
+    cd openappstore-client
+    npm install
+    node app.js
+
+Open a web browser and go to http://localhost:3000
+
+## Features so far
+- Ability to install an npm package via a webpage
+
+## TODO Next:
+- Show dynamic list of installable apps
+- Show dynamic list of installed apps
 
 ## Expected features
 - Browse apps in various categories
@@ -16,10 +27,6 @@ The NPM "package.json" file will be used as the app manifest file. There will be
 - Install app updates
 - Self update to latest app store (?)
 - Developer tools: Testing install of new apps?
-
-## TODO Next:
-- List a few apps (hard-coded via API)
-- Install and launch an app when clicked
 
 ## Potential issues
 
